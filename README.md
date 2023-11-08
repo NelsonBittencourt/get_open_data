@@ -1,6 +1,6 @@
 # get_open_data:
 
-Function to get a csv file from Ckan site and convert it to Pandas dataframe.
+Python function to get a csv file from Ckan site and convert it to Pandas dataframe.
 
 
 # Basic usage:
