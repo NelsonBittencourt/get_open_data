@@ -20,13 +20,13 @@ def get_ckan_data(open_data_URL, res_name, res_item=0, res_type='csv', res_encod
     Its mandatory knows resource name.
         
     Arguments:
-    : open_data_URL     -   URL to ckan base site that contais 'resource_name';
-    : res_name     -   resource name;
-    : res_item     -   (optional, default=0) use if exists multiple files 'into' a 'resource_name';
-    : res_type     -   (optional, default='csv') specifies file type 'csv' or 'xlsx' to converto do dataframe;
-    : res_encoding      -   (optional, default='utf-8') use to avoid errors in csv to Pandas dataframe conversion (default:'utf-8');
-    : res_separator     -   (optional, default=';') use to define csv separator character and
-    : res_decimal       -   (optional, default='.') use to define csv decimal character.
+    : open_data_URL -   URL to ckan base site that contais 'resource_name';
+    : res_name      -   resource name;
+    : res_item      -   (optional, default=0) use if exists multiple files 'into' a 'resource_name';
+    : res_type      -   (optional, default='csv') specifies file type 'csv' or 'xlsx' to converto do dataframe;
+    : res_encoding  -   (optional, default='utf-8') use to avoid errors in csv to Pandas dataframe conversion (default:'utf-8');
+    : res_separator -   (optional, default=';') use to define csv separator character and
+    : res_decimal   -   (optional, default='.') use to define csv decimal character.
     
     Returns:
     : Pandas dataframe  - resource exists and
